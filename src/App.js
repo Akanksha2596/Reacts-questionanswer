@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import data from './data';
 import SingleQuestion from './Questions';
 function App() {
-  const[questions,setQuestions] = useState(data);
+  const[questions] = useState(data);
   return (
   <main>
     <div className='container'>
